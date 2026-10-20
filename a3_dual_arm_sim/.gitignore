@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+.runtime/
+outputs/
+datasets/
+MUJOCO_LOG.TXT
+artifacts/batch_snapshots/
+artifacts/batch_snapshots_*/
+artifacts/batch_dev_*.json
+*.egg-info/
+.DS_Store
+build/
+dist/
+models/smolvla_base/
+# Downloaded model directories; keep simulator XML files in models/ tracked.
+/models/*/
+# Generated evaluation frames, previews and diagnostic reports.
+/artifacts/

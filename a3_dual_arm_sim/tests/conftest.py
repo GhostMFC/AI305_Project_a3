@@ -1,0 +1,14 @@
+from __future__ import annotations
+
+import os
+import sys
+from pathlib import Path
+
+if sys.platform != "win32":
+    os.environ.setdefault("MUJOCO_GL", "egl")
+
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+if str(SRC) in sys.path:
+    sys.path.remove(str(SRC))
+sys.path.insert(0, str(SRC))
