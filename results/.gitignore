@@ -1,0 +1,9 @@
+# Keep large runtime artifacts and credentials out of experiment reports.
+**/__pycache__/
+**/trace.jsonl
+**/*.safetensors
+**/*.pt
+**/*.pth
+**/.env
+**/enter.txt
+**/account.txt

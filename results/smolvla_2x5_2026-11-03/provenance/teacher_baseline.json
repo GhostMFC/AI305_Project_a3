@@ -1,0 +1,150 @@
+{
+  "created_utc": "2026-11-02T07:17:21.905101+00:00",
+  "teacher_source": "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher",
+  "method": "Historical trace truncated at first after.success=True, with source count, safety, and hold checks; otherwise original final state at step 1000.",
+  "no_new_simulation": true,
+  "teacher_wall_seconds": null,
+  "limitation": "Historical trace-derived metrics, not a freshly rerun early-stop baseline. Original videos continue beyond success.",
+  "matched_metadata": [
+    "git_commit",
+    "git_diff",
+    "task",
+    "source_column",
+    "success_hold_steps",
+    "require_released",
+    "slot_tolerance_m",
+    "wall_contact_tolerance_m",
+    "randomization",
+    "pip_freeze",
+    "prompt"
+  ],
+  "matched_arguments": [
+    "model",
+    "max_steps",
+    "horizon",
+    "flow_steps",
+    "inference_seed",
+    "device",
+    "profile",
+    "require_released",
+    "diagnostic"
+  ],
+  "teacher_episode_details": [
+    {
+      "seed": 22000,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 4,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22001,
+      "trace_rows": 1000,
+      "first_success_step": 422,
+      "historical_final_score": 6,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22002,
+      "trace_rows": 1000,
+      "first_success_step": 433,
+      "historical_final_score": 10,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22003,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 3,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22004,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 0,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22005,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 0,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22006,
+      "trace_rows": 1000,
+      "first_success_step": 426,
+      "historical_final_score": 5,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22007,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 0,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22008,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 0,
+      "historical_final_success": false
+    },
+    {
+      "seed": 22009,
+      "trace_rows": 1000,
+      "first_success_step": null,
+      "historical_final_score": 10,
+      "historical_final_success": false
+    }
+  ],
+  "source_sha256": {
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/result.json": "fa37b2b0eea5278869ccf373107da2b153ab4ef8939c9d947a4945def1d1b4e7",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/run.json": "4915efa779857d7b6d70c1697ecc74d7f22cffff9be531cce6ebc34ac0a24550",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22000/trace.jsonl": "ab962f37b09aec37c08cb4f95cfa90dfc0436fe8ad776aaee63aff526969dd26",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22001/trace.jsonl": "3f02636c463f82c6046236eb09aa93ca2ba83e0955e8d84dabfca4461c7da2ce",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22002/trace.jsonl": "e7fbb221a33fdda80948384be20cba0bf6f3548746ae1e97422579e87de9caed",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22003/trace.jsonl": "72810d9a6bacbc2cbc2dc1831ff6a9ca1aabc2efd5273455ae0eb795a2aa89f9",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22004/trace.jsonl": "59388b181434303a23830572484c19796d9f507feb85f60564f450f7eda7088e",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22005/trace.jsonl": "658ce5c3e2916ab0250c393ee2d495e46e78d738610d2557d898fc4aad83f79e",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22006/trace.jsonl": "15b04011b0ea7ac715c4809b142290557a311a1deef9c35c9d3cb078031af0a4",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22007/trace.jsonl": "536b7488d32a7a14e4d06c24c9fce656a4932709f24af532472f62ff674b665e",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22008/trace.jsonl": "516a7ef6db5ac387b3c083f5988381327c9043ae62d2c88e3a466152ebba538c",
+    "A3_ROOT/output/archive/previous_comparison/compare_release1000_dev10_3lWEzF/teacher/trace/seed_22009/trace.jsonl": "9a8c225adabb9a6ed4143a72a2e165825d7fcd7d87cfafdd064c06a519f94a55",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22000/result.json": "569422ad5cec886a3aa1cdb93060362465e1db22de7dc6b89d13db65b8990f1c",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22001/result.json": "21628bfcabe2fcb4022d976fe6ff22348060901f1f3cb30edd01aec61843e2f2",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22002/result.json": "09670f0c5bda38a6294bc72778c395f4a27d2263bf4cea92d630f95ff4bac32c",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22003/result.json": "8d3cbcfc248b1ca9571a98c781d0d837f98dbfa5cc4c76f3212e18bcfe340bc2",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22004/result.json": "8de2787006b47707e8a085f7c724f7b85982ed777c3d0353965ec4ec66a59ba4",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22005/result.json": "054643a10f0ba9f16546ee5e8f97626558997ba13c81e4297acf54d835013a32",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22006/result.json": "cb120dc68210dd5f7ccfcb6b5855f97d957e8743ca5e4e1a2df0dbe2753c1d15",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22007/result.json": "d68950c657586cc53093e2e0e5362ef5d5231b20af7d6391f73b4e01fbb3f7d9",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22008/result.json": "c1f29a54dbdb347bd019306fa8ee5da6f7f5ed18255659002594178b85573d08",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft2000/seed_22009/result.json": "34caeb8f5e5493ea33ebb2eac440a152f78d83668b0e550407d544f8f42737ed",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22000/result.json": "b1e2e02fffd845b3dd28b43370446f0ef593875a269c53f1f1459c4c8ab52289",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22001/result.json": "04e667f80ce355604f02206cba16d56f1281c407fec5cfb193cc5e8f5b977211",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22002/result.json": "16f511898230684d4d6037f02fb1e09da6672f9e6d0f4e784011fe0600873ca6",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22003/result.json": "deff22b0c44aa300ad2d64ee5fb5e270cc138238308f45869178f6eac2fb36c4",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22004/result.json": "c1e10eb65120f695b7319556d13b070420facd11cffca97210758ef4031594d4",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22005/result.json": "ee265925101ecd5d4666f570ce410b1a18d4b7e0151e941c5f5ba22fa0753f8a",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22006/result.json": "597d7bc1bbdccec28250b9bfaed2c0ff3c9ea32c2bfce137b51198b9bc9e00f8",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22007/result.json": "94541d12bda60cf223827c09a0d3b94886e3bf786b1c78c0778094a38e61c8ae",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22008/result.json": "7ab89e58794498e4e8d66199e9f9f5f6ed262f8472e5726681f33cffec079035",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft6000/seed_22009/result.json": "40a238c8910c23c130e1a80f0fc4a522ec51cd61da4660b18aea09f3f0545599",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22000/result.json": "5eedbe70e78bbd2532552632a353add021a7178b4b00178e122194f195c4b5a0",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22001/result.json": "5126ad49351db17592fb77b64257a1fa98372f3c7c7e018bc5a0062d26bfde5d",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22002/result.json": "4cbbc3c608a808e17d96755a610bc3d193cc3d3bb82532ebb08586748d8fc8da",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22003/result.json": "592e85bde38219b3d8c383ee76b388a8aeabcca171e3f95d95b40bd774b834fa",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22004/result.json": "59bacd6c3226f3976b4dab05146183598e8beb8d85a7f078cd53afb87519d2bf",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22005/result.json": "e28a74165e0ff6d49f18149301e71f353e151aea1d85e9fc8547e866d460464e",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22006/result.json": "2be6046e3d43bcd089f74c83152c2e7b1e55e3bf2fe272e9c068c5bcb733aea2",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22007/result.json": "96190bf9e9e20d43c7a53f99b2665635971a4f6057ecbbcfc427b6ddd07da4b9",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22008/result.json": "d009cd336556223e0abe7119ef68ee24e49ac2da4c4336f15d8862bb483acc16",
+    "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D/ft16000/seed_22009/result.json": "90ae6db1f2c2f8fe88c6aa40b327305ea4109ad36a263adf452b3c98e27560fb"
+  },
+  "script_sha256": "5b760ac83903c7791545d19d624a40c8956a2ede87b0d58f4e18835ab1a35840",
+  "original_batch": "plan.json, progress.json, completed_episodes.jsonl and launcher.log still describe the original three-model batch."
+}

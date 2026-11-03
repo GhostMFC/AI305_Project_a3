@@ -1,0 +1,32 @@
+{
+  "model": "ft40000",
+  "checkpoint": "A3_ROOT/models/finetuned/teacher_smol_plus40000_Gn65DX/model/checkpoints/024000/pretrained_model",
+  "weights_sha256": "e243dc4a27d0bba90d6fd1194d04f1ab1da20c1d8493941a875e14c6443d5719",
+  "seeds": [
+    22000,
+    22001,
+    22002,
+    22003,
+    22004,
+    22005,
+    22006,
+    22007,
+    22008,
+    22009
+  ],
+  "max_steps": 1000,
+  "horizon": 50,
+  "flow_steps": 25,
+  "inference_seed": 1000,
+  "profile": "basic",
+  "require_released": true,
+  "no_early_stop": false,
+  "post_success_recording": false,
+  "reference_run": "A3_ROOT/output/evaluations/smol_2k_6k_16k_stop_3gSe4D",
+  "teacher_source": "historical_trace_first_success",
+  "evaluator_sha256": {
+    "evaluate_teacher.py": "1aae42097b4dc3b398fb6e3c55f623127c718bef30f4a6864f899d63f50afc18",
+    "teacher_policy.py": "6ed60dc632dffba7a49e30f4c9ccd0a54000af741bdaa3bc4c225c8335d9168f",
+    "summarize_results.py": "2ef94aa567b38e35d93e252545265352002561e8e0cfc0368abc208c0bfb180c"
+  }
+}

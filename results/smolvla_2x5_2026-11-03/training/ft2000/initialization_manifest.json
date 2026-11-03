@@ -1,0 +1,40 @@
+{
+  "teacher_repo": "Eter0109/a3-cookie-multi-left8-40k-v1",
+  "teacher_revision": "ffa4dfbc3e36796a4b02bcf07e6776f6077e49b8",
+  "initial_weights_sha256": "707f61c825b24825506485e94972005c2290f4886fb32634aadf1d8ca9df57fd",
+  "teacher_raw": "A3_ROOT/models/teacher_smol_raw_40k_v1",
+  "initial_teacher": "A3_ROOT/output/teacher_smol_ft2000_FQyK4H/training/initial_teacher",
+  "effective_training_source": "A3_ROOT/output/teacher_smol_ft2000_FQyK4H/training/.model_a3_smolvla_source",
+  "training_settings": {
+    "dataset_root": "A3_ROOT/datasets/a3_front_close_left_100",
+    "repo_id": "Eter0109/a3-front-close-left-100",
+    "base_model": "A3_ROOT/output/teacher_smol_ft2000_FQyK4H/training/initial_teacher",
+    "output_dir": "A3_ROOT/output/teacher_smol_ft2000_FQyK4H/training/model",
+    "steps": 2000,
+    "batch_size": 4,
+    "num_workers": 2,
+    "seed": 1000,
+    "device": "cuda",
+    "lr": 1e-05,
+    "decay_lr": 1e-06,
+    "warmup_steps": 100,
+    "save_freq": 1000,
+    "offline": true
+  },
+  "removed_inactive_config_fields": {
+    "boundary_loss_weight": 0.1,
+    "boundary_scale": 1.0,
+    "boundary_width_multiplier": 0.25,
+    "expert_variant": "base",
+    "pretrained_revision": null,
+    "residual_kernel_size": 3,
+    "residual_scale": 1.0,
+    "residual_width_multiplier": 0.25,
+    "transition_loss_boost": 1.0,
+    "transition_window": 3
+  },
+  "training_source_file": "A3_ROOT/code/a3_dual_arm_sim/src/a3_dual_arm_sim/learning/training.py",
+  "training_source_sha256": "e35f9fd3f62abb5bfb580e89ec9af10a13a469a9adb86f41ca23fd8c2cdaf32b",
+  "processors": "Use the official LeRobot training entry; dataset normalization overrides are recorded in saved processors.",
+  "resumed_optimizer": false
+}

@@ -1,0 +1,10 @@
+{
+  "checkpoint": "A3_ROOT/models/finetuned/teacher_smol_plus40000_Gn65DX/model/checkpoints/024000/pretrained_model",
+  "initial_weights_sha256": "fbae67c138ba76d060a92f7cd822ea9b9eed46d018843f985ba6f5fcbe0e2701",
+  "trained_weights_sha256": "e243dc4a27d0bba90d6fd1194d04f1ab1da20c1d8493941a875e14c6443d5719",
+  "completed_updates": 24000,
+  "previous_finetune_updates": 16000,
+  "cumulative_finetune_updates": 40000,
+  "resumed_optimizer": false,
+  "all_saved_weights_finite": true
+}

@@ -1,0 +1,27 @@
+{
+  "models": {
+    "ft2000": "A3_ROOT/models/finetuned/teacher_smol_ft2000_FQyK4H/training/model/checkpoints/002000/pretrained_model",
+    "ft6000": "A3_ROOT/models/finetuned/teacher_smol_plus6000_BWcG1e/training/model/checkpoints/004000/pretrained_model",
+    "ft16000": "A3_ROOT/models/finetuned/teacher_smol_plus16000_nljuDp/model/checkpoints/010000/pretrained_model"
+  },
+  "seeds": [
+    22000,
+    22001,
+    22002,
+    22003,
+    22004,
+    22005,
+    22006,
+    22007,
+    22008,
+    22009
+  ],
+  "max_steps": 1000,
+  "horizon": 50,
+  "flow_steps": 25,
+  "inference_seed": 1000,
+  "profile": "basic",
+  "require_released": true,
+  "no_early_stop": false,
+  "post_success_recording": false
+}

@@ -1,0 +1,10 @@
+{
+  "checkpoint": "A3_ROOT/output/teacher_smol_plus16000_nljuDp/model/checkpoints/010000/pretrained_model",
+  "initial_weights_sha256": "48b4e3fbec556e8c239e0334ba6ba1dbb49500b9022c72e54e85628f67a8d5c1",
+  "trained_weights_sha256": "fbae67c138ba76d060a92f7cd822ea9b9eed46d018843f985ba6f5fcbe0e2701",
+  "completed_updates": 10000,
+  "previous_finetune_updates": 6000,
+  "cumulative_finetune_updates": 16000,
+  "resumed_optimizer": false,
+  "all_saved_weights_finite": true
+}
